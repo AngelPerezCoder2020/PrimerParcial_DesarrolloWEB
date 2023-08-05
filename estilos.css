@@ -1,3 +1,37 @@
 * {
     font-size: 14px;
+    margin: 2px;
+    padding: 2px;
+}
+
+body{
+    background-color: aqua;
+}
+
+.caja{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    color:white;
+    background-color:blue;
+}
+
+a:hover {
+    font-size: 24px;
+}
+
+td, th{
+    padding: 5px;
+    margin:5px;
+    border: black solid;
+}
+
+thead{
+    background-color: gray;
+}
+
+td:hover{
+    background-color: green;   
 }
